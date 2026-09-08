@@ -1,0 +1,57 @@
+body {
+    background-color: #F7F4ED;
+    font-family: "myFont";
+    /* background-image: url("myphoto.png"); */
+    /* background-repeat: no-repeat; */
+    color: rgb(7, 0, 0);
+}
+
+.aboutme {
+  position: right;
+  float: right;
+  width: 50%;
+  font-family: "myFont";
+  font-size: 3vw;
+  color: rgb(0, 0, 0);
+}
+
+/* .myphoto {
+  position: absolute;
+  width: 60%;
+  padding: auto;
+  margin: auto;
+} */
+
+@font-face {
+  font-family: "myFont";
+  src: url("ArchivoBlack-Regular.ttf");
+}
+
+.moreaboutme {
+  position: right;
+  float: right;
+  width: 50%;
+  font-family: "myFont";
+  font-weight: bold;
+  padding: 10px;
+  color: black;
+}
+
+ul {
+  font-family: "Arial";
+}
+
+a {
+  color: #000000;
+}
+
+.firstblock {
+  background-image: url("myphoto.png");
+  height: 980px;
+  background-repeat: no-repeat;
+}
+
+.secondblock {
+  position: absolute;
+  z-index: 2;
+}
