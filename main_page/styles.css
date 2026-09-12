@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+.right {
+  float: right;
+  width: 55%;
+  padding: 1px;
+  text-align: left;
+  color:black;
+}
+
+h3 {
+  font-size: 4vw;
+  font-weight: bolder;
+}
+
+
+.photo {
+  float: left;
+  width: 30%;
+  text-align: center;
+  border-color: aquamarine;
+}
+
+.myphoto {
+  max-width: 80vw;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+.nameAndLinkedIn {
+    text-align:left;
+    height: auto;
+}
+
+.aboutme {
+  text-align: left;
+  color:black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+a {
+  color: rgb(61, 30, 27);
+}
+
+@font-face {
+  font-family: "myFont";
+  src: url("ArchivoBlack-Regular.ttf");
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(157, 151, 151);
+  color: white;
+  text-align: center;
+}
+
+/*rotating images!*/
+/* img {
+  position: fixed;
+
+  animation: rotate 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+} */
