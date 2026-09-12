@@ -165,7 +165,7 @@ select {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
 
   /*
     This keeps very long and very short recommendations
@@ -303,7 +303,7 @@ select {
   line-height: 1.45;
   font-weight: 400;
 
-  text-align: center;
+  text-align: left;
 }
 
 .recommendation-card blockquote::before {
