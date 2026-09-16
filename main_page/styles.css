@@ -6,6 +6,8 @@
 
  /* For mobile phones: */
 @media only screen and (max-width: 600px) {
+  body {margin:0;padding:0;padding-top:10px;padding-left:7px;}
+  .textaboutme {padding-right:10px;padding-top:20px; width:100%}
   .aboutmedesktop{display: none;}
   .photo {display: none;}
   .right {float: left;width: 100%;}
@@ -24,6 +26,13 @@
   }
   .myphoto{display: none;}
   .moreaboutme {width: 100%; margin-top: 60px;}
+  .mycv {
+    border-style: double;
+    border-color: rgb(43, 34, 23);
+    font-size: larger;
+    border-radius: 2px;
+
+  }
 }
 
 /* For bigger screens: */
