@@ -3,15 +3,15 @@
    ========================================================= */
 
 :root {
-  --page-background: #f3f2ef;
-  --surface: #ffffff;
+  --page-background:#2C2C2C;
+  --surface: #2C2C2C;
 
-  --text: #1d1d1f;
+  --text: rgb(202, 186, 186);
   --muted: #666666;
 
   --border: #d6d6d6;
 
-  --green: #057642;
+  --green: #2a9e68;
   --green-dark: #005c35;
 
   --font:
