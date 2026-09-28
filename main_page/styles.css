@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
   font-family: var(--font);
-  background-color: #f3f2ef;
+  background-color: #2C2C2C;
+  color: rgb(202, 186, 186);
 }
 
  /* For mobile phones: */
@@ -64,7 +65,6 @@
 .moreaboutme {
   padding: 1px;
   text-align: left;
-  color:black;
   font-family: var(--font);
   font-size: 15px;
 }
@@ -73,7 +73,6 @@
   /* float: right; */
   padding: 1px;
   text-align: left;
-  color:black;
   font-family: var(--font);
   font-size: 20px;
 }
@@ -96,11 +95,10 @@
 
 .aboutme {
   text-align: left;
-  color:black;
 }
 
 a {
-  color: rgb(0, 0, 0);
+  color: rgb(202, 186, 186);
 }
 
 
@@ -110,10 +108,15 @@ a {
   bottom: 0;
   width: 100%;
   background-color: rgb(157, 151, 151);
-  color: white;
+  color: rgb(202, 186, 186);;
   text-align: center;
 }
 
 iframe {
   margin-bottom: 5px;
+}
+
+#linkedin_svg {
+  box-shadow: 2px 2px 11px rgb(138, 151, 233);
+  border-radius: 20px;
 }
