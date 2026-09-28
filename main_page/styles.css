@@ -104,11 +104,11 @@ a {
 
 
 .footer {
-  position: fixed;
+  position: sticky;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(157, 151, 151);
+  background-color: rgba(119, 91, 91, 0.402);
   color: rgb(202, 186, 186);;
   text-align: center;
 }
